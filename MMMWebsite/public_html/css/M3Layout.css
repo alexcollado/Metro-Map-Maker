@@ -1,0 +1,31 @@
+/*
+    M3Layout.css
+
+    This stylesheet sizes and lays out the M3 site components.
+*/
+#metro_header {
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:1970px;
+    height:100px;
+    padding-left:30px;
+    padding-top:15px;
+}
+#metro_toolbar {
+    position:absolute;
+    top:125px;
+    left:10px;
+    width:300px;
+    height:1000px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+}
+#metro_map {
+    position:absolute;
+    top:125px;
+    left:330px;
+    width:1680px;
+    height:1000px;
+}

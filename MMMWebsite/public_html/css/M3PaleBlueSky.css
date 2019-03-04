@@ -1,0 +1,19 @@
+/*
+    M3PaleBlueStyle.css
+
+    This stylesheet sets the font and color styles for the M3 site components.
+*/
+body {
+    font-family: 'Kameron';font-size: 18px;
+}
+#metro_header {
+    background-color:lightskyblue;
+    font-size: 36pt;
+    font-weight:bold;
+}
+#metro_toolbar {
+    background-color:deepskyblue;
+}
+#metro_map {
+    background-color:rgb(230,230,255);
+}

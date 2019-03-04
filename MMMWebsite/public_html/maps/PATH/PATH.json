@@ -1,0 +1,148 @@
+
+{
+    "name":"PATH",
+    "lines":[
+        {
+            "name":"New Wark",
+            "circular":false,
+            "outline_color":{
+                "red":0.0,
+                "green":0.0,
+                "blue":0.0,
+                "alpha":1.0
+            },
+            "station_names":[
+                "Harrison",
+                "Harrison",
+                "Journal Square",
+                "Journal Square",
+                "Grove Street",
+                "Grove Street",
+                "Exchange Place",
+                "Exchange Place",
+                "WTC",
+                "WTC",
+                "WTC",
+                "WTC",
+                "WTC",
+                "WTC",
+                "WTC",
+                "WTC"
+            ]
+        },
+        {
+            "name":"Hoboken WTC",
+            "circular":false,
+            "outline_color":{
+                "red":0.0,
+                "green":0.0,
+                "blue":0.0,
+                "alpha":1.0
+            },
+            "station_names":[
+                "Hoboken",
+                "Hoboken",
+                "Exchange Place",
+                "Exchange Place"
+            ]
+        },
+        {
+            "name":"Hoboken 33rd",
+            "circular":false,
+            "outline_color":{
+                "red":0.0,
+                "green":0.0,
+                "blue":0.0,
+                "alpha":1.0
+            },
+            "station_names":[
+                "9th Street",
+                "9th Street",
+                "14th Street",
+                "14th Street",
+                "Christopher Street",
+                "Christopher Street",
+                "Hoboken",
+                "Hoboken"
+            ]
+        },
+        {
+            "name":"Journal Square",
+            "circular":false,
+            "outline_color":{
+                "red":0.0,
+                "green":0.0,
+                "blue":0.0,
+                "alpha":1.0
+            },
+            "station_names":[
+                "Journal Square",
+                "Journal Square",
+                "Grove Street",
+                "Grove Street",
+                "New Port",
+                "New Port",
+                "Hoboken",
+                "Hoboken",
+                "Christopher Street",
+                "Christopher Street",
+                "9th Street",
+                "9th Street",
+                "14th Street",
+                "14th Street"
+            ]
+        }
+    ],
+    "stations":[
+        {
+            "name":"Harrison",
+            "x":267.0,
+            "y":642.0
+        },
+        {
+            "name":"Grove Street",
+            "x":514.0,
+            "y":640.0
+        },
+        {
+            "name":"Exchange Place",
+            "x":756.0,
+            "y":639.0
+        },
+        {
+            "name":"WTC",
+            "x":1056.0,
+            "y":641.0
+        },
+        {
+            "name":"Journal Square",
+            "x":377.0,
+            "y":641.0
+        },
+        {
+            "name":"New Port",
+            "x":623.0,
+            "y":542.0
+        },
+        {
+            "name":"Hoboken",
+            "x":620.0,
+            "y":388.0
+        },
+        {
+            "name":"Christopher Street",
+            "x":865.0,
+            "y":390.0
+        },
+        {
+            "name":"9th Street",
+            "x":1045.0,
+            "y":338.0
+        },
+        {
+            "name":"14th Street",
+            "x":1042.0,
+            "y":252.0
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+<!--
+  index.html
+
+  This is the index page for the Metro Map Maker site, which will allow users
+  to load various metro maps and find routes to get from one station to another.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Metro Map Maker</title>
+    
+    <!-- GET THE FONT AND STYLESHEETS -->
+    <link href='https://fonts.googleapis.com/css?family=Kameron' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="./css/M3Layout.css" />
+    <link rel="stylesheet" type="text/css" href="./css/M3PaleBlueSky.css" />
+
+    <!-- WE'LL BE USING jQuery -->
+    <script src="scripts/jquery.min.js"></script>
+
+    <!-- LINK TO OUR SCRIPT, WHICH WILL DYNAMICALLY LOAD ADDITIONAL JavaScript FILES -->
+    <script src="scripts/m3/MetroMapMaker.js"></script>
+    <script src="scripts/m3/M3Station.js"></script>
+    <script src="scripts/m3/M3Line.js"></script>
+    <script src="scripts/m3/M3Path.js"></script>
+    <script src="scripts/m3/M3Metro.js"></script>
+    <script src="scripts/m3/M3JsonFileLoader.js"></script>
+    <script src="scripts/m3/M3PageUpdater.js"></script>  
+    <script src="scripts/m3/M3Controller.js"></script>
+    <script src="scripts/m3/M3MapRenderer.js"></script>
+
+    <!-- ONCE THE PAGE FULLY LOADS INITIALIZE THE SLIDESHOW -->
+    <script>
+      window.onload = function()
+      {
+        // GET THE METRO MAP MAKER STARTED
+        M3.setupMMM();
+      };
+    </script>
+  </head>
+
+  <body>
+    <!-- THESE WILL BE FILLED IN BY THE METRO MAP MAKER APP AND ITS SCRIPTS -->
+    <div id="metro_header"></div>
+    <div id="metro_toolbar"></div>
+    <div id="metro_map"><canvas id="metro_map_image_canvas" /></div>  
+  </body>
+</html>

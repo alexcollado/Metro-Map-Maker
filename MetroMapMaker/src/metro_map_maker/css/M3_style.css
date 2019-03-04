@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 2, 2017, 2:52:39 AM
+    Author     : alexc
+*/
+
+.button {
+    -fx-margin: 5px;
+}
+
+.color-picker {
+    -fx-padding: 2px;
+    -fx-color-label-visible: false;
+}
+
+.slider .axis .axis-tick-mark, .slider .axis .axis-minor-tick-mark {
+    -fx-fill: #000000;
+    -fx-stroke: #000000;
+}
+
+.edit_toolbar_row {
+    -fx-padding: 0px;
+    -fx-spacing: 10;
+    -fx-background-color: #8fd8a8;
+    -fx-background-radius: 5.0;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+    -fx-border-width: 2px;
+    -fx-border-color: #000000;
+}
+
+.color_chooser_pane {
+    -fx-background-color:seashell;
+    -fx-padding: 0px;
+}
+
+.color_chooser_control {
+    -fx-font-weight:bold;
+    -fx-font-size:20;     
+}
+
+.bordered_pane {
+    -fx-background-color: #8fc5d8;
+    -fx-background-radius: 5.0;
+    -fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-border-style: solid;
+    -fx-border-right: thick single #000000;
+}
+
+.file_toolbars {
+    -fx-border-style: solid;
+    -fx-border-right: thick single #000000;
+}
+
+.welcome_left {
+    -fx-background: #ccffe0;
+}
+
+.welcome_right {
+    -fx-spacing: 40;
+}
+
+.file_button {
+    -fx-padding: 5;
+}

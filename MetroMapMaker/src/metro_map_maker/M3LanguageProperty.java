@@ -1,0 +1,120 @@
+package metro_map_maker;
+
+/**
+ * This class provides the properties that are needed to be loaded from
+ * language-dependent XML files.
+ *
+ * @author alexc
+ * @version 1.0
+ */
+public enum M3LanguageProperty {
+    
+    EXPORT_ICON,
+    EXPORT_TOOLTIP,
+    
+    CUT_ICON,
+    COPY_ICON,
+    PASTE_ICON,
+    CUT_TOOLTIP,
+    COPY_TOOLTIP,
+    PASTE_TOOLTIP,
+    
+    UNDO_ICON,
+    REDO_ICON,
+    UNDO_TOOLTIP,
+    REDO_TOOLTIP,
+    
+    ABOUT_ICON,
+    ABOUT_TOOLTIP,
+    ABOUT_TITLE_TEXT,
+    ABOUT_CONTENT_TITLE,
+    ABOUT_CONTENT_FRAMEWORKS,
+    ABOUT_CONTENT_DEVELOPERS,
+    ABOUT_CONTENT_YEAR,
+    
+    LINE_LABEL,
+    LINE_TOOLTIP,
+    LINE_COLOR_TOOLTIP,
+    
+    LINE_ADD_ICON,
+    LINE_ADD_TOOLTIP,
+    
+    LINE_REMOVE_ICON,
+    LINE_REMOVE_TOOLTIP,
+    
+    ADD_STATION_ICON,
+    ADD_STATION_TOOLTIP, 
+    
+    REMOVE_STATION_ICON, 
+    REMOVE_STATION_TOOLTIP, 
+    
+    EDIT_LINE_ICON, 
+    EDIT_LINE_TOOLTIP,
+    
+    STATION_LABEL, 
+    STATION_TOOLTIP, 
+    STATION_COLOR_TOOLTIP,
+    
+    STATION_ADD_ICON,
+    STATION_ADD_TOOLTIP, 
+    
+    STATION_REMOVE_ICON, 
+    STATION_REMOVE_TOOLTIP, 
+    
+    SNAP_ICON, 
+    SNAP_TOOLTIP, 
+    
+    MOVE_LABEL_ICON, 
+    MOVE_LABEL_TOOLTIP, 
+    
+    ROTATE_ICON, 
+    ROTATE_TOOLTIP,
+    
+    STATION_A_TOOLTIP, 
+    STATION_B_TOOLTIP, 
+    
+    BEST_ROUTE_ICON, 
+    BEST_ROUTE_TOOLTIP,
+    
+    DECOR_LABEL, 
+    DECOR_COLOR_TOOLTIP,
+    
+    IMAGE_BACKGROUND_ICON, 
+    IMAGE_BACKGROUND_TOOLTIP, 
+    LOAD_IMAGE_TITLE,
+    
+    ADD_IMAGE_ICON, 
+    ADD_IMAGE_TOOLTIP, 
+    
+    ADD_LABEL_ICON, 
+    ADD_LABEL_TOOLTIP, 
+    
+    REMOVE_ELEMENT_ICON, 
+    REMOVE_ELEMENT_TOOLTIP,
+    
+    FONT_LABEL, 
+    FONT_COLOR_TOOLTIP,
+    
+    BOLD_ICON, 
+    BOLD_TOOLTIP, 
+    
+    ITALIC_ICON, 
+    ITALIC_TOOLTIP, 
+    
+    FONT_SIZE_TOOLTIP, 
+    FONT_FAMILY_TOOLTIP,
+    
+    NAVIGATION_LABEL,
+    SHOW_GRID_LABEL,
+    
+    ZOOM_IN_ICON, 
+    ZOOM_IN_TOOLTIP, 
+    ZOOM_OUT_ICON, 
+    ZOOM_OUT_TOOLTIP,
+    
+    INCREASE_MAP_ICON, 
+    INCREASE_MAP_TOOLTIP, 
+    DECREASE_MAP_ICON, 
+    DECREASE_MAP_TOOLTIP
+    
+}
